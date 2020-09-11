@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<title>examplanner</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+</style>
+</head>
+<body background="p14.png">
+<h1><font color="blue">Information about it !!!</font></h1>
+<button class="collapsible">Detail</button>
+<div class="content">
+  <p>EducationalAppStore.com is an independent app marketplace and its services are not affiliated with Google Inc, Apple Inc, Amazon or Microsoft Corporation.<br>
+ All other company and product names are trademarks or registered trademarks of their respective companies. Copyright © 2018 by EducationalAppStore Ltd - All Rights Reserved.</p>
+But learning resources are more than that. They are any tool that helps teachers teach and students learn. ... 
+Supplemental resources help teachers differentiate instruction and engage students who, for whatever reason, need enrichment beyond the core classroom material.
+Learning materials are important because they can significantly increase student achievement by supporting student learning. ... 
+<br>This process aids in the learning process by allowing the student to explore the knowledge independently as well as providing repetition<br>
+<br></div>
+<button class="collapsible">What is the use</button>
+<div class="content">
+  <p>On one hand you have the app, trendy, cool, ever evolving and students just love them. On the other hand you have exams, study and lots of learning; things that students are not so fond of. 
+However, for some strange reason, when we combine the two, students become a lot more receptive and even more willing to learn. Success!<br>
+When we talk about mobile learning apps or m-learning, we mean learning that is done through portable devices such as smartphones and tablets. 
+Mobile learning is one of the hot educational trends for the coming year and here at ExamTime we are embracing that.<br> If like me you love statistics and figures, 
+(come on everyone loves a good statistic) you are going to love this blog so keep reading.<br>
+Explain Everything is one of the easy-to-use and best interactive whiteboard and screencasting app. It can be used to present information to students in a visually engaging way. 
+<br>But an even more exciting part of this app is helping your students learn to create and present with it – individually or on group projects.<br>
+Mobile learning (m-learning) is education via the Internet or network using personal mobile devices, such as tablets and smartphones to obtain learning materials through mobile apps, social interactions and online educational hubs.
+s It is flexible, allowing students access to education anywhere, anytime.</p>
+</div>
+<button class="collapsible">Benefits</button>
+<div class="content">
+  <p>Here are 5 advantages of using educational apps and show the important role of using mobile apps in education:<br>
+ -> New Learning Methods. ...<br>-> Enhanced Parent Teacher Communication. ...<br>-> eBooks And Online Study. ...<br>-> Miscellaneous Functions. ...<br>-> Decreased Communication Gap Between Students And The Institution.<br>
+In these changing times, students are more driven towards using a mobile phone for every purpose. A smartphone they call it. The world is at the fingertips and a student can get access to any information from anywhere.
+This reduces the chance of visiting a library and searching for the data. A mobile phone hence can be used for a number of such purposes. What makes the information easily available is mobile applications.<br>
+Every mobile app has a unique feature which offers its own set of services.
+Learning is a continuous process and the focus has now completely shifted to eLearning. Due to the mobile phones and the various 
+feature-oriented applications, students can learn at their pace and take their time at understanding things, as everything is just a click away.s</p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

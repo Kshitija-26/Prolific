@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<title>examplanner</title>
+<head>
+<title>EXAMSPLANNER</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body background="p17.png">
+<h1 align="center">EXAMSPLANNER</h1>
+<h2 align="center"><i class="material-icons" style="font-size:56px;color:blue">account_box</i></h2>
+<h2 align="center">
+user ID : &nbsp &nbsp<input type="user" value=""><br>
+Password: <input type="password" value="" id="myInput"><h5 align="center"><input type="checkbox" onclick="myFunction()">Show Password &nbsp &nbsp <a href="pass.html"> forgot password??. </a></h5>
+<script>
+function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+</script>
+</body>
+</html>
